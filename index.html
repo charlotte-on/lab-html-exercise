@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>NPM Clone</title>
 </head>
 <body>
@@ -10,10 +11,10 @@
     <header>
         <div>
             <div class="name">
-                <img src="./images/black-heart.png" alt="black heart">
+                <img src="./images/black-heart.png" alt="black heart" class="blackHeart">
                 <span>Nifty Penguin Magic</span>
             </div>
-            <nav class="menu">
+            <nav>
                 <ul>
                     <li><a href="#">npm Enterprise</a></li>
                     <li><a href="#">Products</a></li>
@@ -25,16 +26,16 @@
             </nav>
         </div>
         <div class="searchbar">
-            <img src="./images/npm-logo.png" alt="npm logo">
+            <img src="./images/npm-logo.png" alt="npm logo" class="npm-logo">
             <form action="">
-                <label for="searchbar"><img src="./images/magnifying-glass.png" alt="magnifying-glass"></label>
-                <input type="text" id="searchbar">
+                <label for="searchbar" class="magnifying-glass"><img src="./images/magnifying-glass.png" alt="magnifying-glass" class="magnifying-glass"></label>
+                <input type="text" id="searchbar" placeholder="Search packages">
                 <button>Search</button>
             </form>
-        </div>
-        <div class="log">
-            <a href="#">Join</a>
-            <a href="#">Log In</a>
+            <div class="log">
+                <a href="#">Join</a>
+                <a href="#">Log In</a>
+            </div>
         </div>
     </header>
 
