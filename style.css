@@ -43,6 +43,7 @@ form {
     display: flex;
     align-items: center;
     height: 50px;
+    width: 90%;
 }
 
 label {
@@ -60,7 +61,7 @@ label {
     height: 30px;
     outline: white;
     padding: 3px;
-    width: 1000px;
+    width: 73%;
     background-color: rgba(0,0,0,.05);
     border: 0;
 }
@@ -165,4 +166,48 @@ label {
 #about article {
     width: 800px;
     text-align: center;
+}
+
+#included {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 75px;
+}
+
+.features {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.features img {
+    width: 45px;
+}
+
+.features div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: fit-content;
+}
+
+.features h3 {
+    color: #ED1C24;
+}
+
+.features p {
+    width: 250px;
+}
+
+.button a {
+    color: white;
+    font-weight: 600;
+    background-color: black;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    text-decoration: none ;
+    padding: 10px 100px;
 }
